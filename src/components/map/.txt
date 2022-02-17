@@ -1,0 +1,8 @@
+ combinedKey = () => {
+          filter((report) => !report.hide);
+          forEach((report) => {
+            const { combinedKy, placeId } = combinedKey;
+            const currentPlace = place.find((place) => place.id = placeId);
+            console.log(combinedKy, currentPlace);
+          });
+        };
